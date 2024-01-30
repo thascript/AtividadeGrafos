@@ -1,3 +1,7 @@
+import pandas as pd
+import requests
+from io import StringIO
+
 # URL do arquivo de dados
 url_bases = ["https://people.sc.fsu.edu/~jburkardt/datasets/tsp/att48_d.txt",
        "https://people.sc.fsu.edu/~jburkardt/datasets/tsp/dantzig42_d.txt",
