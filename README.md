@@ -13,9 +13,7 @@ Este algoritmo gera todas as permutações possíveis de visitas às cidades, ca
 O algoritmo de Kruskal é um algoritmo de grafos que encontra uma árvore geradora mínima para um grafo conexo e ponderado, selecionando arestas em ordem crescente de peso e garantindo que não formem ciclos. Ele é eficiente e adequado para grafos densos ou esparsos.
   
 **O Algoritmo de Christofides para o PCV**
-
-
-
+O algoritmo de Christofides é uma heurística para o Problema do Caixeiro Viajante que oferece soluções aproximadas eficientes, combinando árvore mínima, emparelhamento perfeito mínimo e circuito Euleriano para encontrar rotas de viagem próximas ao ótimo.
 
 ## Instalação
 
@@ -25,11 +23,15 @@ Importações:
 - import requests: Facilita o envio de requisições HTTP para interagir com a web de maneira simples e direta.
 - from itertools import permutations Gera todas as permutações possíveis de um conjunto de elementos, útil para resolver problemas de combinação e permutação.
 
-** Algoritmo de Dijkstra**
+**Algoritmo de Dijkstra**
 Este código Python implementa o algoritmo de Dijkstra para resolver o Problema do Caixeiro Viajante (TSP). Para executá-lo, instale as bibliotecas heapq, pandas, requests e io.
 
-** Algoritmo de Kruskal**
-
+**Algoritmo de Kruskal**
+- biblioteca requests: para fazer uma solicitação HTTP para obter os dados do URL.
+- biblioteca StringIO: da biblioteca io para converter o texto da resposta em um objeto de arquivo que pode ser lido pelo pandas.
+- biblioteca pandas: para ler os dados do arquivo de texto e convertê-lo em um DataFrame.
+- biblioteca heapq: para implementar filas de prioridade (por exemplo, em algoritmos como Prim ou Dijkstra) se necessário.
+  
 **Algoritmo de Christofides** , você precisa ter as seguintes dependências instaladas:
 - NetworkX: Biblioteca Python para criação, manipulação e estudo de redes complexas.
   Instalação via pip: ```pip install networkx```
