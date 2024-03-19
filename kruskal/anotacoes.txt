@@ -1,0 +1,14 @@
+Os custos minimos estao saindo menores do que os cursos reais (ver tabela de comparaçao)...
+Isso se deve porque nao é uma algoritmo efeiciente pro caso do PVC?
+
+Verificado com outro algoritmo (também de kruskal e deu no mesmo)...
+
+
+COMPARAÇAO:
+
+BASE1: 33523  -> 27670
+BASE2: 699 -> 591
+BASE3: 19 -> 12      36%
+BASE4: 937-> 741	20%
+BASE5: 2085-> 1421
+BASE6: 291-> 260 	10%
