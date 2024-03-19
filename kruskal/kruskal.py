@@ -1,3 +1,5 @@
+from leitura import LeitorDados
+
 class Kruskal:
     @staticmethod
     def encontrar_AGM(matriz):
@@ -53,11 +55,18 @@ class Kruskal:
 
             i += 1
 
-        # Imprime as arestas da árvore geradora mínima
+        # Arestas da árvore geradora mínima
         custo_total = 0
-        print("Arestas da Árvore Geradora Mínima.....:")
+        caminho_minimo = []
+        print("Arestas da Árvore Geradora Mínima:")
         for aresta in agm:
             origem, destino, peso = aresta
             print(f"{origem} -- {destino} (peso {peso})")
             custo_total += peso
-        print("Custo Total: ", custo_total)
+            caminho_minimo.append((origem, destino))
+        
+        #Caminho Minimo
+        print("\nCaminho Minimo: ", caminho_minimo)
+        #Custo Minimo
+        print("Custo Total:", custo_total)
+        

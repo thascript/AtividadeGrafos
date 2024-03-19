@@ -13,10 +13,6 @@ class Aplicacao:
             df = self.leitor.ler_dados(base)
             matriz = df.values.astype(int)
 
-            print("***"*35)
-            print(matriz)
-            print("***"*35)
-
             self.kruskal.encontrar_AGM(matriz)
         else:
             print("Ops, opção inválida.\n")
