@@ -38,7 +38,10 @@ def exibir_menu(urls):
 urls_bases = [
     "https://people.sc.fsu.edu/~jburkardt/datasets/tsp/att48_d.txt",
     "https://people.sc.fsu.edu/~jburkardt/datasets/tsp/dantzig42_d.txt",
-    # Adicione mais URLs conforme necessário
+    "https://people.sc.fsu.edu/~jburkardt/datasets/tsp/five_d.txt",
+    "https://people.sc.fsu.edu/~jburkardt/datasets/tsp/fri26_d.txt",
+    "https://people.sc.fsu.edu/~jburkardt/datasets/tsp/gr17_d.txt",
+    "https://people.sc.fsu.edu/~jburkardt/datasets/tsp/p01_d.txt"
 ]
 
 # Loop principal
