@@ -1,15 +1,18 @@
-# Implementação de Algoritmo para encontrar os caminhos mínimos 
-A atividade consiste em criar um programa para ler os arquivos de bases de dados e armazenar em uma estrutura de dados (de sua escolha) em qualquer linguagem de programação. Lembre-se que depois vocês irão implementar algoritmos para encontrar os caminhos mínimos para cada base de dados (os valores das soluções estão indicados na página da base de dados). Você deve considerar as bases: ATT48, DANTZIG42, FRI26, GR17 e P01 (disponíveis no link em anexo).
-
+# Implementação de Algoritmos para encontrar os caminhos mínimos 
+A primeira parte desta atividade consiste em criar um programa para ler os arquivos de bases de dados e armazenar em uma estrutura de dados (da nossa escolha) em qualquer linguagem de programação. Depois iremos implementar algoritmos para encontrar os caminhos mínimos para cada base de dados. Consideramos as bases: ATT48, DANTZIG42, FRI26, GR17 e P01 [disponíveis no link](https://people.sc.fsu.edu/~jburkardt/datasets/tsp/tsp.html).
 ## Descrição 
-O código apresenta um script em Python para carregar dados de problemas do Caixeiro Viajante (TSP - Traveling Salesman Problem) que consiste em encontrar a rota mais curta que passe por um conjunto de cidades, visitando cada cidade exatamente uma vez e retornando à cidade de origem, minimizando a distância total percorrida, a partir de URLs específicas. O usuário pode escolher entre as opçoes dosconjuntos de dados disponiveis. O script utiliza a biblioteca Pandas para criar um DataFrame a partir dos dados tabulares, representando a matriz de distâncias entre cidades. -O problema do Caixeiro Viajante envolve encontrar a rota mais curta que visita cada cidade exatamente uma vez e retorna à cidade de origem, minimizando a distância total percorrida.- Este script prepara os dados para análise e implementação de algoritmos de resolução do TSP.
+Esta atividade é continuação do Trabalho prático da AB1 e consiste em implementar algumas soluções para o PCV
+Cada membro da equipe ficará responsavel por implementar um dos algoritmos abaixo:
+- O algoritmo de força bruta para o PCV e executar para todas as bases de dados indicadas.
+- O algoritmo de Dijkstra adaptado para o PCV e executar para todas as bases de dados indicadas. 
+- O algoritmo de AGM ( [Kruskal](https://github.com/thascript/AtividadeGrafos/tree/main/kruskal) ou Prim) para obter um limite inferior para a solução do problema do caixeiro viajante.
+- O Algoritmo de Christofides para o PCV.
 
 ## Instalação
-Se o código for utilizado no ambiente de desenvolvimento do Colab nao é necessário instalar nenhuma biblioteca pois a ferramenta já possuí.
-Se for rodar no VSCode será necessário fazer a instalaçao da biblioteca pandas para...
-Forneça instruções claras sobre como instalar o seu projeto. Inclua dependências específicas e comandos para instalá-las. Se possível, forneça também exemplos de código.
+_Se for rodar no VSCode será necessário fazer a instalaçao da biblioteca para saber quais bibliotecas sao necessárias para cada implementaçao veja diretamente no arquivo das mesmas.
+Forneça instruções claras sobre como instalar o seu projeto. Inclua dependências específicas e comandos para instalá-las. Se possível, forneça também exemplos de código._ [arrumar se der tempo... cada um registra as dependencias do seu código]
 ## Como Usar
-[mais explicaçoes na próxima implementaçao]
+Para implementaçao do algoritmo de Kruskal nao foi necessário nenhuma dependencia externa além das bibliotecas importatdas que se apresentam no arquivo.
 
 ## Contato do desenvolvedor
 Nome e e-mail do(s) desenvolvedor(es):
