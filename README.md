@@ -39,8 +39,16 @@ Este código Python implementa o algoritmo de Dijkstra para resolver o Problema 
 - Requests: Biblioteca Python para fazer solicitações HTTP.
 Instalação via pip: ``` pip install requests```
 
-## Como Usar
-Para implementaçao do algoritmo de Kruskal nao foi necessário nenhuma dependencia externa além das bibliotecas importatdas que se apresentam no arquivo.
+## Resultados
+A seguir segue os custos minimos de cada base nos 4 algoritmos implementados no projeto.
+| Bases                 | Força Bruta   | Dijkstra     |  Kruskal  | Christofides
+| ----------------------| ------------- | -------------| ----------|----------|
+| [1] - att48_d.txt     |               |              | 27670     | 54758    |
+| [2] - dantzig42_d.txt |               |              | 591       | 1072     |
+| [3] - five_d.txt      |     12        |              | 12        | 9        |
+| [4] - fri26_d.txt     |               |              | 741       | 888      |
+| [5] - gr17_d.txt      |               |              | 1421      | 1760     |
+| [6] - p01_d.txt       |               |              | 260       | 190      |
 
 ## Contato do desenvolvedor
 Nome e e-mail do(s) desenvolvedor(es):
